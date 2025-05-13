@@ -1,0 +1,123 @@
+/* All common css  start*/
+ *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "DM Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1, h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.continer{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All common css  end*/
+
+ /* Header Part Start */
+ 
+ #headerpart{
+ 
+    padding: 20px 0;
+ }
+ .hederflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .logo img{
+    width: 100px;
+ } 
+ .menu ul{
+    display: flex;
+ }
+ .menu ul li a{
+    color: #181818;
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 500;
+ }
+
+ .btn a{
+    font-size: 18px;
+    font-weight: 500;
+    color:#FFFFFF ;
+    padding: 15px 20px;
+   
+    background:#5956E8;
+    border-radius: 10px;
+ }
+
+ /* Header Part End  */
+
+  /* Benner Part Start */
+  #bennerpart{
+    background: #5956E8;
+    padding: 170px 0;
+  }
+  .bannerflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .textcontent{
+    width: 531px;
+  }
+  .textcontent h1{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+  .textcontent p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 35px 0;
+  }
+  .textcontent a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #5956E8;
+    padding: 15px 20px;
+    background:#FFFFFF;
+    border-radius: 10px;
+  }
+ /* Benner Part End  */
+
+  /* services Part Start */
+  #servicespart{
+   padding: 100px 0;
+  }
+  .servicestext{
+text-align: center;
+
+  }
+  .servicestext h3{
+   font-size: 40px;
+   font-weight: 700;
+  }
+.servicestext p{
+     font-size: 16px;
+   font-weight: 500;
+   color: rgba(24, 24, 24, 0.70);
+   padding: 0 397px;
+   line-height: 27px;
+   margin: 35px 0;
+}
+ /* services Part End  */
+
+  /* Header Part Start */
+ /* Header Part End  */
+
+  /* Header Part Start */
+ /* Header Part End  */
